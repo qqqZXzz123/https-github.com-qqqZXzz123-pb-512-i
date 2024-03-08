@@ -7,7 +7,6 @@ ENV BYOND_MAJOR=514 \
 
 ARG DEBIAN_FRONTEND=noninteractive
 
-
 RUN dpkg --add-architecture i386 
 RUN apt-get update -y
 RUN apt-get install -y libc6:i386 libstdc++6:i386
